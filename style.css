@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,59 @@ body{
 }
 
 strong{
+    font-size: 40px;
+    font-family: slackey;
     color: #FF0000;
 }
 
 button{
-    href{color: #FF0000;}
+    background-color: #FF0000;
+    color:black
+}
+
+
+main{
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+header{
+    height: 150px;
+}
+
+.made{
+    color: #FF0000;
+}
+
+p{
+
+}
+
+.gatobipede{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.contain{
+    display:flex;
+
+}
+
+.textop{
+    font-size: 25px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 25px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: slackey;
 }
